@@ -16,6 +16,11 @@ namespace NormalFactory
         /// </summary>
         private string _name;
 
+        /// <summary>
+        /// User provided age in years
+        /// </summary>
+        private int _age;
+
         #endregion
 
 
@@ -28,6 +33,7 @@ namespace NormalFactory
         public TestInfo()
         {
             _name = string.Empty;
+            _age = 18;
         }
 
         #endregion
@@ -35,6 +41,15 @@ namespace NormalFactory
 
 
         #region Public Properties
+
+        /// <summary>
+        /// user provided age in years
+        /// </summary>
+        public int Age
+        {
+            get { return _age; }
+            set { _age = value; }
+        }
 
         /// <summary>
         /// User entered name

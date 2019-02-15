@@ -8,10 +8,11 @@ namespace NormalFactory.DemoProject
         {
             TestInfo theValue = new TestInfo()
             {
-                Name = "Scott"
+                Name = "Scott",
+                Age = 21,
             };
 
-            Console.WriteLine($"Hello World! This is {theValue.Name}; this is a test!");
+            Console.WriteLine($"Hello World! This is {theValue.Name}; this is a test!  You are {theValue.Age.ToString()}");
         }
     }
 }
