@@ -12,7 +12,12 @@ namespace NormalFactory.DemoProject
                 Age = 21,
             };
 
+            Console.WriteLine("->----");
+            Console.WriteLine(" ");
             Console.WriteLine($"Hello World! This is {theValue.Name}; this is a test!  You are {theValue.Age.ToString()}");
+
+            Console.WriteLine(" ");
+            Console.WriteLine(theValue.GetUserInfo());
         }
     }
 }
