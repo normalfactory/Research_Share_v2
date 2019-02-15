@@ -62,5 +62,20 @@ namespace NormalFactory
 
         #endregion
 
+
+
+        #region Print Message
+
+        /// <summary>
+        /// Returns metadata on the user
+        /// </summary>
+        /// <returns>Metadata of user</returns>
+        public string GetUserInfo()
+        {
+            return $"The name is {_name} and the age is {_age}";
+        }
+
+        #endregion
+
     }
 }
