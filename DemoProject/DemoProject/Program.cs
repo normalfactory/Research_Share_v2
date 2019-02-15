@@ -6,7 +6,7 @@ namespace NormalFactory.DemoProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! This is Scott");
+            Console.WriteLine("Hello World! This is Scott; this is a test!");
         }
     }
 }
