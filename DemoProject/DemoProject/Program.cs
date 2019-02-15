@@ -6,7 +6,12 @@ namespace NormalFactory.DemoProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! This is Scott; this is a test!");
+            TestInfo theValue = new TestInfo()
+            {
+                Name = "Scott"
+            };
+
+            Console.WriteLine($"Hello World! This is {theValue.Name}; this is a test!");
         }
     }
 }
